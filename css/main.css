@@ -1,0 +1,98 @@
+﻿body, html {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+html{
+    padding-top: 50px;
+}
+
+body {
+    /***background-color: #e74c3c;
+    animation: bg-color 10s infinite;
+    -webkit-animation: bg-color 10s infinite;***/
+}
+
+h2{  /** for events list*/
+    border-left:5px solid red;
+}
+
+h3{
+    border-left:5px solid red;
+}
+
+#main-content{
+    margin-top:-100px;
+    padding-top:100px;
+}
+
+.invitation {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; /**これが縦横比**/
+    height: 0;
+    overflow: hidden;
+    margin-bottom:30px;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.single-btn{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+@-webkit-keyframes bg-color {
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+}
+@keyframes bg-color {
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+}
+
+@media screen and (min-width:768px) {
+    html{
+        padding-top: 100px;
+    }
+}
+
+.footer, .container {
+    margin-bottom: 0 !important;
+}
+
+.section1{
+    background-color:#e74c3c;
+}
+.section2{
+    background-color: #f1c40f;
+}
+.section3{
+    background-color: #1abc9c;
+}
+
+.btn{
+    margin: 20px;
+    border-radius: 22.5px;
+}
+
