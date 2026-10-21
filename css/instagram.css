@@ -1,0 +1,35 @@
+
+.insta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 24px;
+  background: linear-gradient(
+    110deg,
+    #f9a13a,
+    #ed477a,
+    #8547d3
+  );
+  color: #fff;
+  border-radius: 14px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  box-shadow: 0 5px 18px rgba(225, 48, 108, 0.22);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.insta-button svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  stroke: currentColor;
+}
+
+.insta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 9px 25px rgba(225, 48, 108, 0.35);
+}
